@@ -1,5 +1,44 @@
 # Changes to sanitize.css
 
+### 7.0.3 (September 4, 2018)
+
+- Fix disabled cursor
+
+### 7.0.2 (September 4, 2018)
+
+- Restore form control margin normalizations in Firefox
+- Re-order a few rules (opinionated)
+
+### 7.0.1 (August 25, 2018)
+
+- Support the 4-space tab width in Firefox (opinionated)
+- Update documentation
+
+### 7.0.0 (August 22, 2018)
+
+- Use the default user interface font in all browsers (opinionated)
+- Use the default monospace user interface font in all browsers (opinionated)
+- Use a 4-space tab width in all browsers (opinionated)
+- Fix correction of cursor style of increment and decrement buttons
+  in Safari, not Chrome
+- Correct the text style of placeholders in Chrome, Edge, and Safari
+- Remove unnecessary form control margin normalizations in Firefox
+- Remove opinionated fieldset padding in all browsers
+- Remove `::-moz-focus-inner` and `:-moz-focusring` normalizations
+  fixed in Firefox 53
+  https://bugzilla.mozilla.org/show_bug.cgi?id=140562
+
+### 6.0.0 (June 24, 2018)
+
+- Added: `word-break: break-word` to `html`
+- Added: `font-family: inherit` on form elements
+- Added: normalize.css updates
+- Added: `box-sizing: border-box` to `*, ::before, ::after`
+- Removed: `box-sizing: border-box` from `html` and `box-sizing: inherit` from
+  `html`
+- Removed: `color: inherit` and `background-color: transparent` from
+  `form`
+
 ### 5.0.0 (March 1, 2017)
 
 - Added: normalize.css v6 parity, including `summary` display
